@@ -1,5 +1,5 @@
-#...the classic
-#O(n^2)
+#...the horrible classic
+
 def bubbleSort(toSort):
     for i in range(len(toSort)-1,0,-1):
         for j in range(i):
