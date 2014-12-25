@@ -1,4 +1,4 @@
-#...more like shmeshmection shmort
+#...the no-nickname
 
 def selectionSort(toSort):
     for i in range(len(toSort)):
