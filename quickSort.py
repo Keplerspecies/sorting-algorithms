@@ -4,11 +4,11 @@ from random import randint
 
 def quickSort(toSort):
 
-    lastIndex = len(toSort) -1
+    lastIndex = len(toSort) - 1
     if len(toSort) <= 1:
         return toSort
     
-    pivotIndex = randint(0, len(toSort)-1)
+    pivotIndex = randint(0, lastIndex)
     toSort[lastIndex], toSort[pivotIndex] = toSort[pivotIndex], toSort[lastIndex]
     curIndex = 0
     
