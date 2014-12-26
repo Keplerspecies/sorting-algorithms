@@ -1,4 +1,4 @@
-#The 'Why?'
+#...the 'Why, God, why?'
 #keeping a counter for giggles
 
 from random import shuffle
