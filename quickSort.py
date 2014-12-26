@@ -15,7 +15,7 @@ def quickSort(toSort):
     for i in range(0, len(toSort)):
         if toSort[i] < toSort[lastIndex]:
             toSort[i], toSort[curIndex] = toSort[curIndex], toSort[i]
-            curIndex = curIndex +1
+            curIndex = curIndex + 1
     toSort[curIndex], toSort[lastIndex] = toSort[lastIndex], toSort[curIndex]
 
     return quickSort(toSort[:curIndex]) + [toSort[curIndex]] + quickSort(toSort[curIndex+1:])
